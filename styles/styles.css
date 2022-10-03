@@ -7,10 +7,30 @@ a {
     width: 1600px;
     height: 2346px;
     background: #ffffff;
+    font-family: 'Roboto';
 }
 .header {
-    width: 1600px;
+    width: 1598px;
     height: 80px;
+    border: 1px solid #ECECEC;
+}
+
+.finger1{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 480px;
+    top: 49px;
+    list-style-type: none;
+}
+
+.finger2{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1107px;
+    top: 51px;
+    list-style-type: none;
 }
 
 .webstudio_header {
@@ -20,16 +40,17 @@ a {
     left: 215px;
     top: 24px;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
 }
+
 .webstudio_header_color {
     color: black;
 }
+
 .menu_nav {
     width: 281px;
     height: 16px;
@@ -41,9 +62,6 @@ a {
     height: 16px;
     left: 453px;
     top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
@@ -52,9 +70,6 @@ a {
 }
 
 .design_studio{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
@@ -67,9 +82,6 @@ a {
     height: 16px;
     left: 548px;
     top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
@@ -87,9 +99,6 @@ a {
     height: 16px;
     left: 670px;
     top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
@@ -138,10 +147,7 @@ a {
     width: 696px;
     height: 120px;
     left: 452px;
-    top: 200px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
+    margin-top: 200px;
     font-size: 44px;
     line-height: 60px;
     text-align: center;
@@ -154,25 +160,22 @@ a {
     width: 216px;
     height: 50px;
     left: 692px;
-    top: 430px;
+    margin-top: 350px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 .button_text {
-        width: 252px;
-        height: 30px;
-        margin-left: 20px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 30px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: #FFFFFF;
+    width: 252px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
 }
 
 .features {
@@ -185,25 +188,18 @@ a {
 }
 
 .features1 {
-position: absolute;
+    position: absolute;
     width: 270px;
     height: 98px;
 }
 .features_tittle1 {
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #212121;
 }
 .features_describe1{
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -217,9 +213,6 @@ font-family: 'Roboto';
     left: 350px;
 }
 .features_tittle2{
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -228,9 +221,6 @@ font-family: 'Roboto';
     color: #212121;
 }
 .features_describe2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -239,14 +229,11 @@ font-family: 'Roboto';
 
 .features3{
     position: absolute;
-        width: 270px;
-        height: 74px;
-        left: 650px;
+    width: 270px;
+    height: 74px;
+    left: 650px;
 }
 .features_tittle3{
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -255,9 +242,6 @@ font-family: 'Roboto';
     color: #212121;
 }
 .features_describe3 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -266,14 +250,11 @@ font-family: 'Roboto';
 
 .features4{
     position: absolute;
-        width: 270px;
-        height: 98px;
-        left: 950px;
+    width: 270px;
+    height: 98px;
+    left: 950px;
 }
 .features_tittle4{
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -282,9 +263,6 @@ font-family: 'Roboto';
     color: #212121;
 }
 .features_describe4 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -301,9 +279,6 @@ font-family: 'Roboto';
 
 .text_what_do_we_do {
     margin-left: 70px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -345,9 +320,6 @@ font-family: 'Roboto';
 
 .text_our_team {
     margin-top: 80px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -377,8 +349,6 @@ font-family: 'Roboto';
     width: 200px;
     height: 20px;
     margin-left: 30px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -392,9 +362,6 @@ font-family: 'Roboto';
     height: 20px;
     margin-top: 40px;
     margin-left: 30px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -417,8 +384,6 @@ font-family: 'Roboto';
     width: 200px;
     height: 20px;
     margin-left: 40px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -433,9 +398,6 @@ font-family: 'Roboto';
     height: 19px;
     margin-top: 40px;
     margin-left: 60px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -458,8 +420,6 @@ font-family: 'Roboto';
     width: 200px;
     height: 19px;
     margin-left: 30px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -474,9 +434,6 @@ font-family: 'Roboto';
     height: 19px;
     margin-top: 40px;
     margin-left: 90px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -499,8 +456,6 @@ font-family: 'Roboto';
     width: 200px;
     height: 19px;
     margin-left: 40px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -515,9 +470,6 @@ font-family: 'Roboto';
     height: 19px;
     margin-top: 40px;
     margin-left: 90px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -526,12 +478,12 @@ font-family: 'Roboto';
 }
 
 .footer {
-position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2094px;
-background: #2F303A;
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+    background: #2F303A;
 }
 
 .webstudio_footer {
@@ -541,7 +493,6 @@ background: #2F303A;
     margin-left: 260px;
     margin-top: 60px;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -566,9 +517,7 @@ background: #2F303A;
     position: absolute;
     width: 231px;
     height: 10px;
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -581,9 +530,7 @@ background: #2F303A;
     height: 20px;
     left: 40px;
     margin-top: 30px;
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -596,11 +543,14 @@ background: #2F303A;
     height: 25px;
     left: 40px;
     margin-top: 60px;
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+
+/* Стили страницы portfolio.html */
+
+
