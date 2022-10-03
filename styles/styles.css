@@ -51,6 +51,13 @@ a {
     color: black;
 }
 
+.webstudio_header:hover{
+    color: aqua;
+}
+.webstudio_header_color:hover{
+    color:aqua;
+}
+
 .menu_nav {
     width: 281px;
     height: 16px;
@@ -75,6 +82,9 @@ a {
     letter-spacing: 0.02em;
     color: #2196F3;
 }
+.design_studio:hover {
+    color: aqua;
+}
 
 .portfolio {
     position: absolute;
@@ -91,6 +101,9 @@ a {
 
 .text_portfolio{
     color: #212121;
+}
+.text_portfolio:hover {
+    color: aqua;
 }
 
 .contacts {
@@ -109,6 +122,9 @@ a {
 .text_contacts {
     color: #212121;
 }
+.text_contacts:hover {
+    color:aqua;
+}
 
 .email {
     position: absolute;
@@ -122,7 +138,9 @@ a {
 .text_email {
     color: #2196F3;
 }
-
+.text_email:hover {
+    color: aqua;
+}
 .tel {
     position: absolute;
     width: 1600px;
@@ -135,6 +153,9 @@ a {
 .text_tel {
     color: #000000;
 }
+.text_tel:hover {
+    color: aqua;
+}
 
 .main_hat {
     width: 1600px;
@@ -142,6 +163,7 @@ a {
     left: 0px;
     background: #2F303A;
 }
+
 .hat_words {
     position: absolute;
     width: 696px;
@@ -155,18 +177,21 @@ a {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
 .button {
     position: absolute;
+    cursor: pointer;
     width: 216px;
     height: 50px;
-    left: 692px;
+    margin-left: 692px;
     margin-top: 350px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
 .button_text {
-    width: 252px;
+    width: 180px;
     height: 30px;
     margin-left: 20px;
     font-size: 16px;
@@ -176,6 +201,9 @@ a {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+}
+.button_text:hover{
+    color: rgb(2, 6, 245);
 }
 
 .features {
@@ -503,7 +531,10 @@ a {
 .webstudio_footer_color {
     color: #FFFFFF;
 }
-
+.webstudio_footer:hover,
+.webstudio_footer_color:hover{
+    color: rgb(0, 186, 248);
+}
 .address {
     position: absolute;
     width: 231px;
@@ -523,10 +554,12 @@ a {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-
+.map_address:hover {
+    color: #2196F3;
+}
 .email_footer {
     position: absolute;
-    width: 200px;
+    width: 150px;
     height: 20px;
     left: 40px;
     margin-top: 30px;
@@ -536,10 +569,13 @@ a {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+.email_footer:hover {
+    color: #ffffff;
+}
 
 .tel_footer {
     position: absolute;
-    width: 231px;
+    width: 130px;
     height: 25px;
     left: 40px;
     margin-top: 60px;
@@ -548,6 +584,9 @@ a {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.tel_footer:hover {
+    color: #FFFFFF;
 }
 
 
