@@ -7,8 +7,7 @@ a {
     width: 1600px;
     height: 2346px;
     background: #ffffff;
-    font-family: 'Roboto';
-    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
 }
 .header {
     width: 1598px;
