@@ -51,11 +51,8 @@ a {
     color: black;
 }
 
-.webstudio_header:hover{
+.webstudio_header:hover {
     color: aqua;
-}
-.webstudio_header_color:hover{
-    color:aqua;
 }
 
 .menu_nav {
@@ -531,10 +528,11 @@ a {
 .webstudio_footer_color {
     color: #FFFFFF;
 }
-.webstudio_footer:hover,
-.webstudio_footer_color:hover{
+
+.webstudio_footer:hover {
     color: rgb(0, 186, 248);
 }
+
 .address {
     position: absolute;
     width: 231px;
