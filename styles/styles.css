@@ -5,8 +5,8 @@ a {
 .body {
     background: #ffffff;
     font-family: 'Roboto', sans-serif;
-
 }
+
 .header {
     border: 1px solid #ECECEC;
 }
@@ -14,6 +14,7 @@ a {
 .webstudio_header {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
@@ -96,7 +97,7 @@ a {
     list-style-type: none;
 }
 .text_tel {
-    color: #000000;
+    color: #757575;
 }
 .text_tel:hover {
     color: aqua;
@@ -279,6 +280,7 @@ a {
 }
 
 .button_filter_main{
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,62;
@@ -291,6 +293,7 @@ a {
 }
 
 .button_filter {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
